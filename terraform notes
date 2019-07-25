@@ -1,9 +1,9 @@
-terraform import aws_vpc.intercity-vpc-network-prod-VPC vpc-4f7b9328
+terraform import aws_vpc.intercity-vpc-network-prod-VPC vpc-7f691c18
 
-terraform import aws_subnet.intercity-vpc-network-prod-SubnetAPublic subnet-66972501
-terraform import aws_subnet.intercity-vpc-network-prod-SubnetBPublic subnet-c0fc5089
-terraform import aws_subnet.intercity-vpc-network-prod-SubnetAPrivate subnet-11992b76
-terraform import aws_subnet.intercity-vpc-network-prod-SubnetBPrivate subnet-fdfd51b4
+terraform import aws_subnet.intercity-vpc-network-prod-SubnetAPublic subnet-6c52760b
+terraform import aws_subnet.intercity-vpc-network-prod-SubnetBPublic subnet-fcc791b5
+terraform import aws_subnet.intercity-vpc-network-prod-SubnetAPrivate subnet-075c7860
+terraform import aws_subnet.intercity-vpc-network-prod-SubnetBPrivate subnet-38c49271
 
 
 No security groups or rules to import, terraform will create new ones.

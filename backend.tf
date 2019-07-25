@@ -3,7 +3,7 @@ terraform {
     organization = "eit-demo"
 
     workspaces {
-      name = "intercity-prod-eks"
+      name = "intercity-prod-eks-use"
     }
   }
 }
